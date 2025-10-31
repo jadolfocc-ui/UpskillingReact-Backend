@@ -33,8 +33,8 @@ namespace Server
             //add CORS policy
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("allowLocalhost",
-                    policy => policy.WithOrigins("http:// localhost:5173")
+                options.AddPolicy("AllowLocalhost",
+                    policy => policy.WithOrigins("http://localhost:5173")
                                     .AllowAnyHeader()
                                     .AllowAnyMethod());
 
