@@ -52,4 +52,4 @@ jobs:
           app-name: 'upskillreactweb'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_32D19D4F00774326B501B3353968C902 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CB72EC2BA0624204B351FF8AD56B684F }}
